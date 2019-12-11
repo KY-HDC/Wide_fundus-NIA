@@ -11,8 +11,8 @@ Preprocessing_AMD & Preprocessing_DMR&RVO 에서 실제 구현 세부 내용을 
 &nbsp; | 증강 종류 | 설명 
 :----: | :-----: | :-:
 1 | 영상 필터 종류 | Bilateral, Gaussian, Histogram Equalization, Median, Sharpening (황반변성 - Sobel, Scharr 추가)
-2 | 영상 확대 여부 | 125% 확대 후 center를 중심으로 299*299 crop (황반변성 - 60, 120, 180, 240, 300도)
-3 | 영상 회전 여부 | 90, 180, 270도 회전
+2 | 영상 확대 여부 | 125% 확대 후 center를 중심으로 299*299 crop 
+3 | 영상 회전 여부 | 90, 180, 270도 회전 (황반변성 - 60, 120, 180, 240, 300도)
 
 
 ## Performance Estimation
